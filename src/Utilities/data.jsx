@@ -1,0 +1,51 @@
+const restrauntList = [
+  {
+    id: 10,
+    name: "Winners  Hotel",
+    img: "../public/assets/kukufry.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 5.0,
+    time: 20,
+  },
+  {
+    id: 8,
+    name: "Dha Lakers  Hotel",
+    img: "../public/assets/burger.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 2.0,
+    time: 50,
+  },
+  {
+    id: 90,
+    name: "Winners  Hotel",
+    img: "../public/assets/kukufry.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 4.0,
+    time: 20,
+  },
+  {
+    id: 78,
+    name: "Dha Lakers  Hotel",
+    img: "../public/assets/burger.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 2.0,
+    time: 50,
+  },
+  {
+    id: 20,
+    name: "Winners  Hotel",
+    img: "../public/assets/kukufry.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 3.0,
+    time: 20,
+  },
+  {
+    id: 5,
+    name: "Dha Lakers  Hotel",
+    img: "../public/assets/burger.png",
+    cuisine: "kikuyu is the best food ever my people",
+    rating: 2.0,
+    time: 50,
+  },
+];
+export default restrauntList;

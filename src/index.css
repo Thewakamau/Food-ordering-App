@@ -1,0 +1,56 @@
+.header {
+  display: flex; /*put the logo in the same line*/
+  justify-content: space-between; /*push the two  container divs  side to side */
+  border: 1px solid red;
+}
+.logo {
+  width: 100pt;
+  border-radius: 50%;
+}
+.nav-items > ul {
+  display: flex; /*put the items in the same line*/
+  list-style-type: none; /*remove the dots in list items*/
+}
+.nav-items > ul > li {
+  padding: 0 4pt 4pt 4pt;
+  margin: 0 4pt 4pt 4pt;
+  font-size: 20pt;
+}
+.nav-items > ul > li:hover {
+  color: red;
+}
+.container {
+}
+.rescard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid gray;
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.meals {
+  width: 200px;
+  height: 100px;
+}
+.card:hover {
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.btn-filter {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: blue;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  padding: 2px;
+}
+.btn-filter:hover {
+}
